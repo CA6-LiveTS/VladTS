@@ -1,6 +1,6 @@
 # VladTS
 
-# What is it?
+## What is it?
 VladTS is a tool used to convert VodTS Timestamp to the LiveTS file format.  
 
 ## Why the name?
