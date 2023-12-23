@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "CA6 VladTS",
+    "description": "He is back, Vlad \"the Impaler\" Țepeș Drăculea , Prince of wallachia, Prince of Darkness. Ok, Not really, More seriously, a special version of LiveTS and VodTS for development purposes.",
+    "version": "6.6.6",
+    "permissions": [
+    ],
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*", "https://www.twitch.tv/*", "https://vstream.com/*"],
+            "js": ["content.js", "vladts.js", "livets.js", "vodts.js", "youtube.js", "twitch.js", "vstream.js", "utils.js", "platformAbstract.js"]
+        }
+    ],
+    "action": {
+        "default_icon": "128.png"
+    }
+}
