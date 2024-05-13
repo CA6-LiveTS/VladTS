@@ -1,12 +1,24 @@
 # VladTS
 
+See LiveTS and VodTS for more information:  
+[LiveTS](https://github.com/CA6-LiveTS/LiveTS-Chrome)  
+[VodTS](https://github.com/CA6-LiveTS/VodTS-chrome)  
+
 ## What is it?
-VladTS is a tool used to convert VodTS Timestamp to the LiveTS file format.  
+VladTS is the development branch for the next version of LiveTS and VodTS livestream timestamps tools.
+
 
 ## Why the name?
-VladTS: Vodts to Livets Assisted Data conversion tool.  
-The name is totally made up and in reality, VladTS is named after Vlad the Impaler Dracula.  
-VladTS feed on the existing timestamps in youtube comments and LiveTS repo to provide life (new files) for the LiveTS repo.  
+VladTS: Vodts to Livets Assisted Data conversion tool.
 
-## What is it really for?
-To be serious it is intended to be used to generate test files and upgrade old LiveTS files to new format.
+## LiveTS
+All the features of LiveTS are supported in VladTS
+
+## VodTS
+The rewrite of VodTS feature is in progress, so The VodTS part of VladTS is not working, please use the Regular VodTS.
+
+## Conversion LiveTS <=> VodTS
+The sharing of data between VodTS and LiveTS and the edit of VodTS Timestamps in LiveTS is in progress.
+
+## Conversion To EDL
+A timestamp to Resolve EDL will be available soon.

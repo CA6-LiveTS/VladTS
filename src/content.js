@@ -15,9 +15,9 @@ let observer = new MutationObserver(function() {
 
     titleElement.prepend(container);
 
-    setupVladTS(firstRow, container);
+    // setupVladTS(firstRow, container);
     setupLiveTS(firstRow, container);
-    setupVodTS(firstRow, container);
+    // setupVodTS(firstRow, container);
 
     observer.disconnect();
 });
